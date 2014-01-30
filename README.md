@@ -11,7 +11,5 @@ the `bout` holds the id's of both leagues and referees, as well as its own `bout
 
 ### The Derby Tracker should:
 
-* Prompt the user to make one of the 3 choices in the file
-* Output the end result of picking a specific choice
-* Prompt the user to restart the game after the destination is reached
-* Output the story to a text file
+* Prompt the user to
+
