@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Referee:</strong>
+  <%= @bout.referee_id %>
+</p>
+
+<p>
+  <strong>League:</strong>
+  <%= @bout.league_id %>
+</p>
+
+<p>
+  <strong>Bout date:</strong>
+  <%= @bout.bout_date %>
+</p>
+
+<%= link_to 'Edit', edit_bout_path(@bout) %> |
+<%= link_to 'Back', bouts_path %>

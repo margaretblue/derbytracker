@@ -1,0 +1,12 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  referee_id: 1
+  league_id: MyString
+  bout_date: MyText
+
+two:
+  referee_id: 1
+  league_id: MyString
+  bout_date: MyText
