@@ -15,8 +15,8 @@
   <tbody>
     <% @bouts.each do |bout| %>
       <tr>
-        <td><%= bout.referee_id %></td>
-        <td><%= bout.league_id %></td>
+        <td><%= bout.referee.name %></td>
+        <td><%= bout.league.name %></td>
         <td><%= bout.bout_date %></td>
         <td><%= link_to 'Show', bout %></td>
         <td><%= link_to 'Edit', edit_bout_path(bout) %></td>
@@ -28,4 +28,6 @@
 
 <br>
 
-<%= link_to 'New Bout', new_bout_path %>
+<%= link_to 'New Bout', new_bout_path %><br />
+<%= link_to 'New League', new_league_path %><br />
+<%= link_to 'New Referee', new_referee_path %><br />

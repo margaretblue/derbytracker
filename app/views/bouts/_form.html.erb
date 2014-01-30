@@ -13,11 +13,11 @@
 
   <div class="field">
     <%= f.label :referee_id %><br>
-    <%= f.number_field :referee_id %>
+    <%= f.select :referee_id, Referee.all.collect {|r| [r.name, r.id]} %>
   </div>
   <div class="field">
     <%= f.label :league_id %><br>
-    <%= f.text_field :league_id %>
+    <%= f.select :league_id, League.all.collect {|l| [l.name, l.id]} %>
   </div>
   <div class="field">
     <%= f.label :bout_date %><br>
